@@ -6,6 +6,8 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+
+import java.io.BufferedReader;
 import java.io.IOException;
 
 @WebServlet("/lifecycle")		// 요청 경로 매핑
@@ -17,7 +19,11 @@ public class LifeCycleServlet extends HttpServlet {
 	 * - ServletConfig : 해당 서블릿에 대한 설정 정보를 담는 객체
 	 */
 
-	public void init(ServletConfig config) throws ServletException {
+	private static final long serialVersionUID = 1L;
+
+	public void init(
+			ServletConfig config
+			) throws ServletException {
 		System.out.println("서블릿 초기화");
 		System.out.println("ServletConfig : " + config);
 	}
@@ -53,5 +59,6 @@ public class LifeCycleServlet extends HttpServlet {
 	public void destroy() {
 		System.out.println("서블릿 종료 ... ");
 	}
-
+	
+	
 }

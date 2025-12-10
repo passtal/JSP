@@ -27,7 +27,7 @@ public class MethodServlet extends HttpServlet {
 	// - 요청 파라미터 : name, age
 
 	protected void doGet(
-			HttpServletRequest request, 
+			HttpServletRequest request,
 			HttpServletResponse response
 			) throws ServletException, IOException {
 		try {

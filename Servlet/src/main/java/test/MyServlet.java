@@ -49,8 +49,10 @@ public class MyServlet extends HttpServlet {
     }
 
 	// POST 방식 요청을 처리하는 메소드
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(
+		HttpServletRequest request, 
+		HttpServletResponse response
+		) throws ServletException, IOException {
 		doGet(request, response);
 	}
-
 }
