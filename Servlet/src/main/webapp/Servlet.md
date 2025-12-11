@@ -117,5 +117,13 @@ User-Agent 헤더: [사용자 에이전트 정보]
 - forward & redirect 방식
 
 ## forward
+- 서버 내부에서 요청 경로 A가 B로 요청을 전달하며 페이지로 이동하는 방식
+- 요청정보 (request) / 응답정보 (response)
+
+- 특징
+- 원래의 요청정보 및 응답정보를 그대로 사용함
+- Client는 이동한 페이지인 B를 응답받지만, 주소 표시줄의 요청 URL(요청정보)는 A 그대로임
+- 즉, Client → (request) → Server → 생성:(A의 URL) → [forward] → 생성:(B의 URL) → (reponse) → Client (B의 URL을 제공받음. 화면에 표시)
 
 ## redirect
+- 서버가 요청 경로 A로 요청을 받은 후, 클라이언트에게 B로 다시 요청하라고 지시하며 페이지를 이동하는 방식

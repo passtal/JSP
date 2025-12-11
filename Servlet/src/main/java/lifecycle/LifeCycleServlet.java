@@ -53,7 +53,7 @@ public class LifeCycleServlet extends HttpServlet {
 	}
 	
 	/*
-	 * 서블릿이 종료될 때 호출되는 메소드
+	 * 서블릿이 종료될 때 호출되는 메소드 (자원을 해제할 때 사용)
 	 */
 	
 	public void destroy() {
