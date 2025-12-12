@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>유효성 거마</title>
+	<title>유효성 검사</title>
 </head>
 <body>
 	<h3>로그인에 성공했습니다.</h3>
