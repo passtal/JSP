@@ -142,7 +142,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="09.필터" path="/09.필터" reloadable="true" source="org.eclipse.jst.jee.server:09.필터"/><Context docBase="10.세션" path="/10.세션" reloadable="true" source="org.eclipse.jst.jee.server:10.세션"/><Context docBase="11.쿠키" path="/11.쿠키" reloadable="true" source="org.eclipse.jst.jee.server:11.쿠키"/><Context docBase="12.리스너" path="/12.리스너" reloadable="true" source="org.eclipse.jst.jee.server:12.리스너"/><Context docBase="13.EL" path="/13.EL" reloadable="true" source="org.eclipse.jst.jee.server:13.EL"/></Host>
+      <Context docBase="09.필터" path="/09.필터" reloadable="true" source="org.eclipse.jst.jee.server:09.필터"/><Context docBase="10.세션" path="/10.세션" reloadable="true" source="org.eclipse.jst.jee.server:10.세션"/><Context docBase="11.쿠키" path="/11.쿠키" reloadable="true" source="org.eclipse.jst.jee.server:11.쿠키"/><Context docBase="12.리스너" path="/12.리스너" reloadable="true" source="org.eclipse.jst.jee.server:12.리스너"/><Context docBase="13.EL" path="/13.EL" reloadable="true" source="org.eclipse.jst.jee.server:13.EL"/><Context docBase="14.JSTL" path="/14.JSTL" reloadable="true" source="org.eclipse.jst.jee.server:14.JSTL"/><Context docBase="Site" path="/Site" reloadable="true" source="org.eclipse.jst.jee.server:Site"/><Context docBase="layout" path="/layout" reloadable="true" source="org.eclipse.jst.jee.server:layout"/><Context docBase="bootstrap" path="/bootstrap" reloadable="true" source="org.eclipse.jst.jee.server:bootstrap"/></Host>
     </Engine>
   </Service>
 </Server>
