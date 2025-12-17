@@ -14,7 +14,7 @@
 	<h1>게시글 목록</h1>
 	<!-- 데이터 소스 -->
 	<sql:setDataSource var="dataSource"
-		url="jdbc:mysql://localhost:3306/database?serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false"
+		url="jdbc:mysql://localhost:3306/aloha?serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false"
 		driver="com.mysql.cj.jdbc.Driver"
 		user="root"
 		password="123456"
